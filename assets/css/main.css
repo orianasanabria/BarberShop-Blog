@@ -1,0 +1,20 @@
+/* Error: $color2: 300 is not a color.
+ *     ,
+ * 106 |   @return mix($color-base, $color, $level * $theme-color-interval);
+ *     |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ *     '
+ *   assets\sass\vendors\bootstrap-4.5\_functions.scss 106:11  theme-color-level()
+ *   assets\sass\vendors\bootstrap-4.5\_tables.scss 101:38     @import
+ *   assets\sass\vendors\bootstrap-4.5\bootstrap.scss 17:9     @import
+ *   assets\sass\main.scss 4:9                                 root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: $color2: 300 is not a color.\a     \2577 \a 106 \2502    @return mix($color-base, $color, $level * $theme-color-interval);\a     \2502            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\a     \2575 \a   assets\\sass\\vendors\\bootstrap-4.5\\_functions.scss 106:11  theme-color-level()\a   assets\\sass\\vendors\\bootstrap-4.5\\_tables.scss 101:38     @import\a   assets\\sass\\vendors\\bootstrap-4.5\\bootstrap.scss 17:9     @import\a   assets\\sass\\main.scss 4:9                                 root stylesheet";
+}
