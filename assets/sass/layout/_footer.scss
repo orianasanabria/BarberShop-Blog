@@ -1,0 +1,13 @@
+.footer {
+    width: 100vw;
+    height: 206px;
+    background-color: $eerie-black;
+}
+
+.footer__logo {
+    width: 122px;
+    position: absolute;
+    left: 50%;
+    padding-top: 6rem;
+    transform: translateX(-50%);
+}

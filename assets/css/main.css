@@ -9949,6 +9949,7 @@ p {
 .header__title {
   color: #fff;
   font-size: 70px;
+  text-align: center;
 }
 
 .main__container {
@@ -9966,6 +9967,10 @@ p {
   font-size: 16px;
   font-weight: 300;
   line-height: 35px;
+}
+
+.main__paragraph-color {
+  color: #D76C69;
 }
 
 .second-section {
@@ -10019,6 +10024,20 @@ p {
   position: absolute;
   left: 50%;
   padding-top: 3rem;
+  transform: translateX(-50%);
+}
+
+.footer {
+  width: 100vw;
+  height: 206px;
+  background-color: #121619;
+}
+
+.footer__logo {
+  width: 122px;
+  position: absolute;
+  left: 50%;
+  padding-top: 6rem;
   transform: translateX(-50%);
 }
 
