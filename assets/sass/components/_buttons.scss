@@ -1,0 +1,19 @@
+.main__button {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    background-color: $nickel;
+    padding: .6rem 1rem;
+    border-radius: 50px;
+    font-family: $roboto;
+    &:hover {
+        background-color: $light-gray;
+        border-color: $light-gray;
+    }
+    &:focus {
+        border-color: $light-gray;
+    }
+}
+
+.button-medium {
+    margin-left: 10px;
+}

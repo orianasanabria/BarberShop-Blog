@@ -1,0 +1,12 @@
+.container__pagination {
+    width: 100vw;
+    height: 134px;
+    background-color: $platinum;
+}
+
+.section__pagination {
+    position: absolute;
+    left: 50%;
+    padding-top: 3rem;
+    transform: translateX(-50%);
+}

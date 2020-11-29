@@ -4531,7 +4531,6 @@ input[type=button].btn-block {
   display: flex;
   padding-left: 0;
   list-style: none;
-  border-radius: 0.25rem;
 }
 
 .page-link {
@@ -4542,7 +4541,6 @@ input[type=button].btn-block {
   line-height: 1.25;
   color: #007bff;
   background-color: #fff;
-  border: 1px solid #dee2e6;
 }
 .page-link:hover {
   z-index: 2;
@@ -4570,7 +4568,6 @@ input[type=button].btn-block {
   z-index: 3;
   color: #fff;
   background-color: #007bff;
-  border-color: #007bff;
 }
 .page-item.disabled .page-link {
   color: #6c757d;
@@ -9898,6 +9895,7 @@ h3 {
 }
 body {
   background-color: #fff;
+  color: #222323;
 }
 
 body {
@@ -9917,6 +9915,10 @@ h6 {
   font-family: "Playfair Display", serif;
   font-weight: 900;
   font-style: italic;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
 }
 
 .nav {
@@ -9947,6 +9949,97 @@ h6 {
 .header__title {
   color: #fff;
   font-size: 70px;
+}
+
+.main__container {
+  margin: 70px 131.852px 0px 131.852px;
+  padding: 15px 15px;
+}
+
+.main__paragraph-emphasis {
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+}
+
+.main__paragraph {
+  padding: 25px 0;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 35px;
+}
+
+.second-section {
+  padding: 3rem 0;
+  align-items: center;
+}
+
+.section__image {
+  border-radius: 50%;
+  width: 177px;
+}
+
+.section__title, .section__paragraph {
+  display: inline-block;
+}
+
+.section__title {
+  font-size: xx-large;
+}
+
+.section__paragraph {
+  font-size: 16px;
+  line-height: 35px;
+  font-weight: 300;
+}
+
+.section__link {
+  font-size: large;
+  font-weight: 300;
+  margin: 0;
+  color: #E56353;
+  display: block;
+  text-decoration: none;
+}
+.section__link:hover {
+  color: #222323;
+  text-decoration: none;
+}
+.section__link:active {
+  color: #E6E7E7;
+  text-decoration: none;
+}
+
+.container__pagination {
+  width: 100vw;
+  height: 134px;
+  background-color: #E6E7E7;
+}
+
+.section__pagination {
+  position: absolute;
+  left: 50%;
+  padding-top: 3rem;
+  transform: translateX(-50%);
+}
+
+.main__button {
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  background-color: #6C6E70;
+  padding: 0.6rem 1rem;
+  border-radius: 50px;
+  font-family: "Roboto", sans-serif;
+}
+.main__button:hover {
+  background-color: #D1D1D1;
+  border-color: #D1D1D1;
+}
+.main__button:focus {
+  border-color: #D1D1D1;
+}
+
+.button-medium {
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,44 @@
+.second-section {
+    padding: 3rem 0;
+    align-items: center;
+}
+
+.section__image {
+    border-radius: 50%;
+    width: 177px;
+}
+
+.section__title, .section__paragraph, {
+    display: inline-block;
+}
+
+.section__title {
+    font-size: xx-large;
+}
+
+.section__paragraph {
+    font-size: $medium;
+    line-height: 35px;
+    font-weight: $light-w;
+}
+
+.section__link {
+    font-size: large;
+    font-weight: $light-w;
+    margin: 0;
+    color: $fuzzy-wuzzy;
+    display: block;
+    text-decoration: none;
+
+    &:hover {
+    color: $raisin-black;
+    text-decoration: none;
+    }
+
+    &:active {
+    color: $platinum;
+    text-decoration: none;
+    }
+
+}
+
